@@ -1,5 +1,5 @@
 {
-  "name": "@mapbox/geojson-mapnikify",
+  "name": "@wikimedia/geojson-mapnikify",
   "version": "3.0.1",
   "description": "transform geojson with simplestyle-spec into mapnik xml",
   "main": "index.js",
@@ -27,9 +27,9 @@
   },
   "homepage": "https://github.com/mapbox/geojson-mapnikify",
   "dependencies": {
-    "@mapbox/blend": "^2.0.1",
+    "@kartotherian/blend": "^2.0.1",
     "@mapbox/geojson-normalize": "~0.0.1",
-    "@mapbox/makizushi": "^3.0.1",
+    "@wikimedia/makizushi": "^4.0.0",
     "agentkeepalive": "^4.0.2",
     "minimist": "~1.2.0",
     "needle": "^2.4.0",
@@ -38,10 +38,10 @@
     "xtend": "~4.0.0"
   },
   "devDependencies": {
+    "@kartotherian/mapnik": "3.7.3",
     "coveralls": "~2.11.1",
     "glob": "~4.0.5",
     "istanbul": "~0.3.0",
-    "mapnik": "3.x || 4.x",
     "nock": "<=9.2.3",
     "tape": "~2.14.0"
   }
