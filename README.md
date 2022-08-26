@@ -1,7 +1,3 @@
-[![Build Status](https://travis-ci.com/mapbox/geojson-mapnikify.svg?branch=master)](https://travis-ci.com/mapbox/geojson-mapnikify)
-[![Coverage Status](https://coveralls.io/repos/mapbox/geojson-mapnikify/badge.png)](https://coveralls.io/r/mapbox/geojson-mapnikify)
-[![Code Climate](https://codeclimate.com/github/mapbox/geojson-mapnikify/badges/gpa.svg)](https://codeclimate.com/github/mapbox/geojson-mapnikify)
-
 # geojson-mapnikify
 
 Transform [GeoJSON](http://geojson.org/) objects into [Mapnik](http://mapnik.org/)
@@ -12,11 +8,11 @@ styles.
 
 As a dependency:
 
-    npm install --save @mapbox/geojson-mapnikify
+    npm install --save @wikimedia/geojson-mapnikify
 
 As a binary:
 
-    npm install -g @mapbox/geojson-mapnikify
+    npm install -g @wikimedia/geojson-mapnikify
 
 ## api
 
