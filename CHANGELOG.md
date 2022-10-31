@@ -1,5 +1,9 @@
 ## changelog
 
+## 4.0.0
+- Use forked makizushi from wikimedia namspace with maki 7.2.0. icons
+- Update dependencies
+ 
 ## 3.0.1
 - Allows up to one redirect for requests by default
 - Allows either http or https requests for agent
