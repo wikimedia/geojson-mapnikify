@@ -1,4 +1,4 @@
-<Map srs="+init=epsg:3857">
+<Map srs="epsg:3857">
     <Style name="geoms">
         <Rule>
             <Filter>[mapnik::geometry_type]=polygon or [fill]</Filter>
@@ -19,7 +19,7 @@
             />
         </Rule>
     </Style>
-    <Layer name="layer" srs="+init=epsg:4326">
+    <Layer name="layer" srs="epsg:4326">
         <StyleName>geoms</StyleName>
         <StyleName>points</StyleName>
         <Datasource>
